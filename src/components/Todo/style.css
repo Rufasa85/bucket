@@ -1,0 +1,23 @@
+.Todo {
+    border:1px solid red
+}
+
+
+.Todo.high {
+    font-weight: bold;
+    background:salmon;
+}
+
+.Todo.med {
+    background:goldenrod;
+}
+.Todo.low {
+    font-weight: light;
+    background:cornflowerblue;
+}
+
+.Todo.complete {
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-style: italic;
+}
